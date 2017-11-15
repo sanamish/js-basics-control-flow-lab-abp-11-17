@@ -16,10 +16,13 @@ function ternaryCheckCity(city) {
   }
 }
 
-function switchOnCharmTip(tip) {
-  if(tip==='generous') {
-    return 'Thank you so much.'
-  } else if (tip==='not as generous') {
-    return 'Thank you.'
+function switchOnCharmTip(tipString){
+  switch(tipString) {
+    case "generous":
+      return 'Thank you so much.'
+    case "not as generous"
+      return 'Thank you.'
+    case "thanks for everything"
+        return 'Bye'
   }
 }
