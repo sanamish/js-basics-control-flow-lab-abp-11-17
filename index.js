@@ -20,9 +20,9 @@ function switchOnCharmTip(tipString){
   switch(tipString) {
     case "generous":
       return 'Thank you so much.'
-    case "not as generous"
+    case "not as generous":
       return 'Thank you.'
-    case "thanks for everything"
+    else
         return 'Bye'
   }
 }
